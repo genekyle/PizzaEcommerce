@@ -44,7 +44,7 @@ function Add({ setClose }) {
                 img: url,
             };
 
-            await axios.post("http://pizza-ecommerce-two.vercel.app/api/products", newProduct);
+            await axios.post("https://pizza-ecommerce-tau.vercel.app/api/products", newProduct);
             setClose(true)
 
         }catch(err) {

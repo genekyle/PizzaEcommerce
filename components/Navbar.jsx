@@ -28,7 +28,9 @@ const Navbar = () => {
                     <Link href="/" passHref>
                         <Image className={styles.logo} src="/img/logo.png" alt="" width="200px" height="160px" />
                     </Link>
-                    <li className={styles.listItem}>Events</li>
+                    <li className={styles.listItem}>
+                        <Link href="/admin" passHref>Admin Dashboard</Link>
+                    </li>
                     <li className={styles.listItem}>Blog</li>
                     <li className={styles.listItem}>Contact</li>
                 </ul>
